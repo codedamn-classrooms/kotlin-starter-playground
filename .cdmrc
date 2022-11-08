@@ -1,1 +1,4 @@
 tabs: ['script.kt']
+run-button: | 
+    kotlinc script.kt -include-runtime -d script.jar
+    java -jar script.jar
